@@ -1,0 +1,291 @@
+{
+  "communities": {
+    "0": [
+      "ref_react",
+      "src_app",
+      "src_app_app",
+      "src_components_about",
+      "src_components_about_about",
+      "src_components_about_pillars",
+      "src_components_aishowcase",
+      "src_components_aishowcase_aishowcase",
+      "src_components_aishowcase_demomessages",
+      "src_components_contact",
+      "src_components_contact_contact",
+      "src_components_cursorglow",
+      "src_components_cursorglow_cursorglow",
+      "src_components_experience",
+      "src_components_experience_experience",
+      "src_components_footer",
+      "src_components_footer_footer",
+      "src_components_hero",
+      "src_components_hero_chips",
+      "src_components_hero_hero",
+      "src_components_navbar",
+      "src_components_navbar_navbar",
+      "src_components_sectionheading",
+      "src_components_sectionheading_props",
+      "src_components_sectionheading_sectionheading",
+      "src_components_testimonials",
+      "src_components_testimonials_testimonials",
+      "src_data_content_aicapabilities",
+      "src_data_content_navlinks",
+      "src_data_content_profile",
+      "src_data_content_testimonials",
+      "src_main"
+    ],
+    "1": [
+      "ref_dom",
+      "ref_src",
+      "ref_vite_client",
+      "tsconfig_app",
+      "tsconfig_app_compileroptions",
+      "tsconfig_app_compileroptions_allowarbitraryextensions",
+      "tsconfig_app_compileroptions_allowimportingtsextensions",
+      "tsconfig_app_compileroptions_erasablesyntaxonly",
+      "tsconfig_app_compileroptions_jsx",
+      "tsconfig_app_compileroptions_lib",
+      "tsconfig_app_compileroptions_module",
+      "tsconfig_app_compileroptions_moduledetection",
+      "tsconfig_app_compileroptions_moduleresolution",
+      "tsconfig_app_compileroptions_noemit",
+      "tsconfig_app_compileroptions_nofallthroughcasesinswitch",
+      "tsconfig_app_compileroptions_nounusedlocals",
+      "tsconfig_app_compileroptions_nounusedparameters",
+      "tsconfig_app_compileroptions_skiplibcheck",
+      "tsconfig_app_compileroptions_target",
+      "tsconfig_app_compileroptions_tsbuildinfofile",
+      "tsconfig_app_compileroptions_types",
+      "tsconfig_app_compileroptions_verbatimmodulesyntax",
+      "tsconfig_app_include",
+      "tsconfig_app_json_ref_es2023"
+    ],
+    "2": [
+      "ref_node",
+      "ref_vite_config_ts",
+      "tsconfig_node",
+      "tsconfig_node_compileroptions",
+      "tsconfig_node_compileroptions_allowimportingtsextensions",
+      "tsconfig_node_compileroptions_erasablesyntaxonly",
+      "tsconfig_node_compileroptions_lib",
+      "tsconfig_node_compileroptions_module",
+      "tsconfig_node_compileroptions_moduledetection",
+      "tsconfig_node_compileroptions_noemit",
+      "tsconfig_node_compileroptions_nofallthroughcasesinswitch",
+      "tsconfig_node_compileroptions_nounusedlocals",
+      "tsconfig_node_compileroptions_nounusedparameters",
+      "tsconfig_node_compileroptions_skiplibcheck",
+      "tsconfig_node_compileroptions_target",
+      "tsconfig_node_compileroptions_tsbuildinfofile",
+      "tsconfig_node_compileroptions_types",
+      "tsconfig_node_compileroptions_verbatimmodulesyntax",
+      "tsconfig_node_include",
+      "tsconfig_node_json_ref_es2023"
+    ],
+    "3": [
+      "src_components_education",
+      "src_components_education_education",
+      "src_components_marquee",
+      "src_components_marquee_marquee",
+      "src_components_services",
+      "src_components_services_icons",
+      "src_components_services_services",
+      "src_components_skills",
+      "src_components_skills_columns",
+      "src_components_skills_skillbar",
+      "src_components_skills_skills",
+      "src_data_content",
+      "src_data_content_certifications",
+      "src_data_content_education",
+      "src_data_content_experience",
+      "src_data_content_experienceitem",
+      "src_data_content_processsteps",
+      "src_data_content_services",
+      "src_data_content_skillcloud",
+      "src_data_content_skills"
+    ],
+    "4": [
+      "framer_motion",
+      "lucide_react",
+      "package",
+      "package_dependencies",
+      "package_dependencies_framer_motion",
+      "package_dependencies_lucide_react",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_lint",
+      "package_scripts_preview",
+      "package_type",
+      "package_version",
+      "react",
+      "react_dom"
+    ],
+    "5": [
+      "oxlint",
+      "package_devdependencies",
+      "package_devdependencies_oxlint",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_tailwindcss_vite",
+      "package_devdependencies_types_node",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react",
+      "tailwindcss",
+      "tailwindcss_vite",
+      "types_node",
+      "types_react",
+      "types_react_dom",
+      "typescript",
+      "vite",
+      "vitejs_plugin_react"
+    ],
+    "6": [
+      "oxlintrc",
+      "oxlintrc_plugins",
+      "oxlintrc_rules",
+      "oxlintrc_rules_react_only_export_components",
+      "oxlintrc_rules_react_rules_of_hooks",
+      "oxlintrc_schema",
+      "ref_oxc",
+      "ref_typescript",
+      "ref_warn"
+    ],
+    "7": [
+      "src_components_projects",
+      "src_components_projects_filters",
+      "src_components_projects_projectcard",
+      "src_components_projects_projects",
+      "src_data_content_project",
+      "src_data_content_projects"
+    ],
+    "8": [
+      "tsconfig",
+      "tsconfig_files",
+      "tsconfig_references"
+    ],
+    "9": [
+      "vite_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.12096774193548387,
+    "1": 0.08333333333333333,
+    "2": 0.1,
+    "3": 0.13157894736842105,
+    "4": 0.10526315789473684,
+    "5": 0.10526315789473684,
+    "6": 0.2222222222222222,
+    "7": 0.3333333333333333,
+    "8": 0.6666666666666666,
+    "9": 1.0
+  },
+  "gods": [
+    {
+      "id": "tsconfig_app_compileroptions",
+      "label": "compilerOptions",
+      "degree": 18
+    },
+    {
+      "id": "tsconfig_node_compileroptions",
+      "label": "compilerOptions",
+      "degree": 15
+    },
+    {
+      "id": "src_components_sectionheading_sectionheading",
+      "label": "SectionHeading()",
+      "degree": 10
+    },
+    {
+      "id": "ref_react",
+      "label": "react",
+      "degree": 8
+    },
+    {
+      "id": "src_data_content_profile",
+      "label": "profile",
+      "degree": 7
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 5
+    },
+    {
+      "id": "oxlintrc_plugins",
+      "label": "plugins",
+      "degree": 4
+    },
+    {
+      "id": "oxlintrc_rules",
+      "label": "rules",
+      "degree": 3
+    },
+    {
+      "id": "src_data_content_navlinks",
+      "label": "navLinks",
+      "degree": 3
+    },
+    {
+      "id": "tsconfig_app_compileroptions_lib",
+      "label": "lib",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "plugins",
+      "target": "react",
+      "source_files": [
+        ".oxlintrc.json",
+        ".oxlintrc.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "extends",
+      "note": "Bridges community 6 → community 0"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `react` connect `Community 0` to `Community 6`, `Community 7`?",
+      "why": "High betweenness centrality (0.047) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `devDependencies` connect `Community 5` to `Community 4`?",
+      "why": "High betweenness centrality (0.042) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `plugins` connect `Community 6` to `Community 0`?",
+      "why": "High betweenness centrality (0.042) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `$schema`, `typescript`, `oxc` to the rest of the system?",
+      "why": "70 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.12096774193548387 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 2` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.1 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
