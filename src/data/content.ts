@@ -20,7 +20,7 @@ export const profile = {
     },
     {
       label: "GitHub",
-      href: "https://github.com/jagadeeswararao-b",
+      href: "https://github.com/smartjaganrao",
       icon: "github" as const,
     },
     {
@@ -119,15 +119,109 @@ export type Project = {
   subtitle: string
   description: string
   tags: string[]
-  category: "Banking" | "Fintech" | "Enterprise" | "AI / GenAI" | "IoT / Mobile"
+  category: "Banking" | "Fintech" | "Enterprise" | "AI / GenAI" | "IoT / Mobile" | "Desktop"
   metrics: { label: string; value: string }[]
   gradient: string
   featured?: boolean
   year: string
   org?: string
+  link?: string
+  github?: string
 }
 
 export const projects: Project[] = [
+  {
+    id: "flow-explorer",
+    title: "FlowExplorer Pro",
+    subtitle: "Liquid glassmorphic macOS & Windows desktop file manager",
+    description:
+      "Next-generation desktop file manager combining macOS Liquid Glassmorphism with Windows 11 keyboard ergonomics and storage intelligence. Native Electron IPC, virtualized folder views, and instant multi-directory search.",
+    tags: ["Electron", "Vite", "React", "Tailwind CSS", "Lucide", "macOS", "Desktop"],
+    category: "Desktop",
+    metrics: [
+      { label: "Target", value: "Mac & Win" },
+      { label: "Speed", value: "Instant" },
+      { label: "Design", value: "Glass" },
+    ],
+    gradient: "from-cyan-500/35 via-blue-500/20 to-indigo-500/25",
+    featured: true,
+    year: "2026",
+    org: "Personal · Open Source",
+    github: "https://github.com/smartjaganrao/flow-explorer",
+  },
+  {
+    id: "jarvis-automation",
+    title: "JARVIS — AI Automation OS",
+    subtitle: "Personal AI automation OS with MCP & multi-provider router",
+    description:
+      "Architected an extensible agentic OS with multi-provider routing (Gemini, Groq, Ollama, OpenRouter), Model Context Protocol (MCP) tool execution, and local SQLite persistence with Drizzle ORM.",
+    tags: ["TypeScript", "Model Context Protocol", "Drizzle ORM", "SQLite", "Gemini", "Vitest"],
+    category: "AI / GenAI",
+    metrics: [
+      { label: "Arch", value: "Monorepo" },
+      { label: "Protocol", value: "MCP" },
+      { label: "Engine", value: "Multi-LLM" },
+    ],
+    gradient: "from-violet-500/40 via-purple-500/20 to-pink-500/25",
+    featured: true,
+    year: "2026",
+    org: "Personal · Open Source",
+    github: "https://github.com/smartjaganrao/jarvis-ai-automation",
+  },
+  {
+    id: "focus-guardian",
+    title: "Focus Guardian 🛡️",
+    subtitle: "AI focus mentor desktop overlay companion",
+    description:
+      "Minimalist transparent floating desktop companion powered by Groq ultra-low latency inference. Delivers contextual nudges, task breakdown, and distraction intervention with Zustand state management.",
+    tags: ["React 19", "Electron", "Groq SDK", "Zustand", "Vite"],
+    category: "AI / GenAI",
+    metrics: [
+      { label: "React", value: "v19" },
+      { label: "Inference", value: "Groq" },
+      { label: "UI", value: "Overlay" },
+    ],
+    gradient: "from-emerald-400/30 via-teal-500/20 to-cyan-400/25",
+    year: "2026",
+    org: "Personal · Open Source",
+    github: "https://github.com/smartjaganrao/focus-guardian",
+  },
+  {
+    id: "clinic-q",
+    title: "SmartQFlow / Clinic-Q",
+    subtitle: "Real-time clinic queue & visit management SaaS",
+    description:
+      "Full-stack healthcare operations platform supporting real-time token tracking, patient check-ins, doctor availability, Supabase backend integration, and geolocation-based clinic discovery with Leaflet.",
+    tags: ["React", "TypeScript", "Supabase", "Leaflet", "Google GenAI"],
+    category: "Fintech",
+    metrics: [
+      { label: "Backend", value: "Supabase" },
+      { label: "Realtime", value: "Live Queue" },
+      { label: "Maps", value: "Leaflet" },
+    ],
+    gradient: "from-blue-500/35 via-indigo-500/20 to-violet-500/20",
+    year: "2025 – 2026",
+    org: "Personal · SaaS",
+    github: "https://github.com/smartjaganrao/Clinic-Q-Web-Mobile-App",
+  },
+  {
+    id: "pastebot",
+    title: "PasteBot",
+    subtitle: "Lightweight macOS clipboard history manager",
+    description:
+      "Zero-bloat macOS clipboard manager monitoring clipboard buffers, providing instant fuzzy search, quick-paste shortcuts, and encrypted local storage.",
+    tags: ["Electron", "React", "TypeScript", "Clipboardy"],
+    category: "Desktop",
+    metrics: [
+      { label: "Platform", value: "macOS" },
+      { label: "Storage", value: "Local" },
+      { label: "Poll Rate", value: "500ms" },
+    ],
+    gradient: "from-amber-400/25 via-orange-500/15 to-rose-500/20",
+    year: "2026",
+    org: "Personal · Open Source",
+    github: "https://github.com/smartjaganrao/pastebot-app",
+  },
   {
     id: "digital-banking",
     title: "Digital Banking Portal",

@@ -4,7 +4,7 @@ import { ArrowUpRight, Layers } from "lucide-react"
 import { projects, type Project } from "../data/content"
 import { SectionHeading } from "./SectionHeading"
 
-const filters = ["All", "Banking", "Fintech", "AI / GenAI", "Enterprise", "IoT / Mobile"] as const
+const filters = ["All", "Desktop", "AI / GenAI", "Banking", "Fintech", "Enterprise"] as const
 
 function ProjectCard({ project, index }: { project: Project; index: number }) {
   return (
@@ -33,9 +33,21 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
               <p className="mt-1 text-[11px] uppercase tracking-wide text-slate-500">{project.org}</p>
             )}
           </div>
-          <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white transition group-hover:border-violet-400/40 group-hover:bg-violet-500/20">
-            <ArrowUpRight className="h-4 w-4" />
-          </span>
+          {(project.github || project.link) ? (
+            <a
+              href={project.github || project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white transition hover:scale-105 hover:border-violet-400 hover:bg-violet-500/20 group-hover:border-violet-400/40 group-hover:bg-violet-500/20"
+              title="View on GitHub"
+            >
+              <ArrowUpRight className="h-4 w-4" />
+            </a>
+          ) : (
+            <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white transition group-hover:border-violet-400/40 group-hover:bg-violet-500/20">
+              <ArrowUpRight className="h-4 w-4" />
+            </span>
+          )}
         </div>
 
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-slate-300 sm:text-[15px]">
